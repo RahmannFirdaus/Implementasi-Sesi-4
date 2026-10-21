@@ -1,7 +1,7 @@
-# 🏦 Studi Kasus Machine Learning — Klasifikasi Kelayakan Pinjaman
+# 🏦 Studi Kasus Machine Learning - Klasifikasi Kelayakan Pinjaman
 
 > **Loan Approval Classification System**
-> Berdasarkan materi webinar **Dr. Taniza Tajudin** — *Universiti Teknologi MARA* bersama *Universitas Bengkulu*
+> Berdasarkan materi webinar **Dr. Taniza Tajudin** - *Universiti Teknologi MARA* bersama *Universitas Bengkulu*
 
 ---
 
@@ -117,59 +117,14 @@ ml-loan-approval-project/
     ├── confusion_matrix.png
     ├── feature_importance.png
     └── metrics_summary.png
-```
-
----
-
-## 📤 Panduan Mengunggah ke GitHub
-
-### A. Melalui Terminal / Command Line
-
-```bash
-# 1. Inisialisasi repositori Git
-cd ml-loan-approval-project
-git init
-
-# 2. Tambahkan semua file
-git add .
-
-# 3. Buat commit pertama
-git commit -m "feat: initial ML loan approval classification project"
-
-# 4. Buat repositori baru di GitHub (https://github.com/new)
-#    — Beri nama: ml-loan-approval-project
-#    — Jangan centang "Initialize with README"
-
-# 5. Hubungkan ke remote repository
-git remote add origin https://github.com/<USERNAME>/ml-loan-approval-project.git
-
-# 6. Push ke GitHub
-git branch -M main
-git push -u origin main
-```
-
-### B. Melalui GitHub Desktop
-
-1. Buka **GitHub Desktop** → *File* → *Add Local Repository*
-2. Pilih folder `ml-loan-approval-project`
-3. Klik **Create Repository**
-4. Klik **Publish Repository** → pilih visibilitas (Public/Private) → **Publish**
-
-### C. Melalui Web (Upload)
-
-1. Buka https://github.com/new → buat repositori baru
-2. Klik **"uploading an existing file"**
-3. Seret semua file proyek ke area upload
-4. Klik **Commit changes**
-
 ---
 
 ## 📚 Referensi
 
-1. Materi Webinar Dr. Taniza Tajudin — *Universiti Teknologi MARA* & *Universitas Bengkulu*
-2. Scikit-learn Documentation — https://scikit-learn.org/stable/
-3. Pandas Documentation — https://pandas.pydata.org/docs/
-4. Matplotlib & Seaborn — https://matplotlib.org/ | https://seaborn.pydata.org/
+1. Materi Webinar Dr. Taniza Tajudin - *Universiti Teknologi MARA* & *Universitas Bengkulu*
+2. Scikit-learn Documentation - https://scikit-learn.org/stable/
+3. Pandas Documentation - https://pandas.pydata.org/docs/
+4. Matplotlib & Seaborn - https://matplotlib.org/ | https://seaborn.pydata.org/
 
 ---
 
