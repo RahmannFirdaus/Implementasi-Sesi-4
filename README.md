@@ -1,7 +1,6 @@
 # 🏦 Studi Kasus Machine Learning - Klasifikasi Kelayakan Pinjaman
 
 > **Loan Approval Classification System**
-> Berdasarkan materi webinar **Dr. Taniza Tajudin** - *Universiti Teknologi MARA* bersama *Universitas Bengkulu*
 
 ---
 
@@ -13,11 +12,11 @@ Proyek ini mengimplementasikan **klasifikasi biner** untuk memprediksi kelayakan
 
 | Fitur               | Tipe       | Keterangan                                   |
 |----------------------|------------|----------------------------------------------|
-| `Income`            | Numerik    | Pendapatan calon peminjam (2 000 – 15 000)   |
-| `Debt_Ratio`        | Numerik    | Rasio utang terhadap pendapatan (0.1 – 0.8)  |
+| `Income`            | Numerik    | Pendapatan calon peminjam (2 000 - 15 000)   |
+| `Debt_Ratio`        | Numerik    | Rasio utang terhadap pendapatan (0.1 - 0.8)  |
 | `Credit_History`    | Kategorikal| Good / Fair / Poor                           |
 | `Employment_Status` | Kategorikal| Employed / Self-Employed / Unemployed        |
-| `Loan_Amount`       | Numerik    | Jumlah pinjaman yang diminta (5 000 – 50 000)|
+| `Loan_Amount`       | Numerik    | Jumlah pinjaman yang diminta (5 000 - 50 000)|
 
 ### Target
 
@@ -63,35 +62,6 @@ Proyek ini mengimplementasikan **klasifikasi biner** untuk memprediksi kelayakan
 └──────────────────┘
 ```
 
----
-
-## 🚀 Cara Menjalankan
-
-### Prasyarat
-
-- Python 3.9+
-
-### Langkah
-
-```bash
-# 1. Clone repositori
-git clone https://github.com/<USERNAME>/ml-loan-approval-project.git
-cd ml-loan-approval-project
-
-# 2. Buat virtual environment (opsional tapi direkomendasikan)
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# macOS / Linux
-source venv/bin/activate
-
-# 3. Instal dependensi
-pip install -r requirements.txt
-
-# 4. Jalankan program
-python main.py
-```
-
 Hasil evaluasi akan ditampilkan di terminal, dan tiga file visualisasi akan disimpan di folder `output/`:
 
 | File                      | Deskripsi                              |
@@ -112,7 +82,7 @@ ml-loan-approval-project/
 ├── .gitignore           # File yang diabaikan Git
 ├── LICENSE              # Lisensi MIT
 ├── README.md            # Dokumentasi (file ini)
-└── output/              # Hasil keluaran (dibuat saat runtime)
+└── output/              
     ├── loan_dataset.csv
     ├── confusion_matrix.png
     ├── feature_importance.png
@@ -125,9 +95,3 @@ ml-loan-approval-project/
 2. Scikit-learn Documentation - https://scikit-learn.org/stable/
 3. Pandas Documentation - https://pandas.pydata.org/docs/
 4. Matplotlib & Seaborn - https://matplotlib.org/ | https://seaborn.pydata.org/
-
----
-
-## 📄 Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
